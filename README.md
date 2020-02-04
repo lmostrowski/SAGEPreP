@@ -63,5 +63,5 @@ The final step of preprocessing is to manually search for bad epochs (the algori
 * Repeat this process for every “.set” file created by the output of the previous preprocessing step (segmented by task / data type).
  
 Final output EEG data from the last stage of processing, ReviewEpochs, will be saved within the folder “Epochs reviewed” under their original file names, with “_epochs_reviewed” appended: 
-￼
+
 Please email Lauren Ostrowski at lauren_ostrowski@brown.edu with any bugs, questions, or concerns.
