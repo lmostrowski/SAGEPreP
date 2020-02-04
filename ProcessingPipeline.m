@@ -572,7 +572,7 @@ try
     color_range=cell(length(eeg_chans)+length(ext_chans),1); color_range(:)={'b'};
     color_range(chans_to_interp)={'r'};
     color_range(ext_chans)={'k'};
-    eegplot(EEG.data,'eloc_file',EEG.chanlocs,...
+    eegplot(EEG.data,'srate',EEG.srate,'eloc_file',EEG.chanlocs,..
     'dispchans',30,'spacing',50,'color',color_range,...
         'title','Manual inspection of EEG data for bad channels');
     options.Resize='on';
