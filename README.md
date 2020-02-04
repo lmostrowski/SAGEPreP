@@ -4,6 +4,7 @@ EEG data are typically contaminated with artifacts (e.g., by eye movements, elec
 Before beginning, be sure that you have downloaded the EEGLab and FASTER software packages. Add FASTER to the plugins section of EEGLab and list the EEGLab software folder in your MATLAB search path. 
 
 For info on FASTER: https://dx.doi.org/10.1016/j.jneumeth.2010.07.015
+
 To download FASTER directly: https://sourceforge.net/projects/faster/
 
 Preprocessing EEG data requires two steps: 
